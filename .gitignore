@@ -1,0 +1,4 @@
+# Project exclude paths
+/Idalya-Hub/.gradle/
+/Idalya-Hub/build/
+/Idalya-Hub/build/classes/java/main/

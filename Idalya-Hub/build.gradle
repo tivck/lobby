@@ -1,0 +1,28 @@
+plugins {
+    id 'java'
+    id 'com.github.johnrengelman.shadow' version '6.0.0'
+}
+
+group 'net.idalya'
+version '1.0-SNAPSHOT'
+compileJava.options.encoding("UTF-8")
+
+repositories {
+    mavenCentral()
+    maven { url = 'https://oss.sonatype.org/content/repositories/snapshots' }
+    maven { url 'https://hub.spigotmc.org/nexus/content/repositories/snapshots/' }
+}
+
+dependencies {
+    implementation(files("C:\\Users\\esper\\Desktop\\Idalya\\lobby\\plugins\\core-all.jar"))
+    implementation 'fr.minuskube.inv:smart-invs:1.2.7'
+    implementation 'com.github.azbh111:spigot-1.8.8:R'
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+}
+
+test {
+    useJUnitPlatform()
+}
+
+setLibsDirName("C:\\Users\\esper\\Desktop\\Idalya\\lobby\\plugins")

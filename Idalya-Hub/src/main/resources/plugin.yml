@@ -1,0 +1,6 @@
+main: fr.tick.Hub
+version: 1.0
+author: tick
+name: Idalya-Hub
+softdepend:
+  - Idalya-Core

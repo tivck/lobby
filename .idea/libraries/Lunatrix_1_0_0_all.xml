@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Lunatrix-1.0.0-all">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../Eterny/Lunatrix-1.0.0-all.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../Eterny/Lunatrix-1.0.0-all.jar!/" />
+    </SOURCES>
+  </library>
+</component>
